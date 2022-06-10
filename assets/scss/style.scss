@@ -1,0 +1,33 @@
+// importo bootstrap
+@import "./bootstrap";
+
+// clases
+
+.base {
+    color: $color-font;
+    background-color: $color-bg;
+}
+
+html {
+    @extend .base;
+}
+
+.card {
+    @extend .base;
+}
+
+.card-title {
+    color: $purple-new;
+}
+
+.card .btn {
+    color: $color-font;
+}
+
+body {
+    background-color: $fondo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
