@@ -1,0 +1,19 @@
+//importo font
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+// variables
+
+$fondo: green;
+$purple-new: #cf649a;
+$color-bg: #222529;
+$color-font: white;
+$font-new: 'Dancing Script';
+$font-family-base: $font-new;
+$theme-colors: (
+    "purple": $purple-new,
+    ) !default;
+
+// importo bootstrap
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
